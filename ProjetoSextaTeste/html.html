@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrossel</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo da empresa" id="logo" />
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+      <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Buscar..." />
+        <img src="images/lupa.jpg" width="20px" height="20px" id="btnBusca" alt="Buscar" />
+      </div>
+
+      <div class="user-access">
+        <a href="#">Entre</a> ou <a href="#">Cadastre-se</a>
+      </div>
+
+      <div id="divCarrinho">
+        <img src="images/carrinho.jpg" width="30px" height="30px" alt="Carrinho" />
+      </div>
+    </nav>
+  </header>
+
+
+    <!-- Carrossel -->
+    <section class="carousel-container">
+      <h1>Novidades</h1>
+      <div class="carousel-button prev">
+        <img src="images/setaE.png" alt="Anterior" class="arrow" />
+      </div>
+
+      <div class="carousel-slide">
+        <div class="product-card">
+          <img src="images/escapeGSX-R1000.jpg" alt="Escape GSX-R1000" />
+          <h3>Escape GSX-R1000</h3>
+          <p>R$ 1.250,00</p>
+        </div>
+        <div class="product-card">
+          <img src="images/capaceteHJC.jpg" alt="Capacete HJC" />
+          <h3>Capacete HJC</h3>
+          <p>R$ 750,00</p>
+        </div>
+        <div class="product-card">
+          <img src="images/guidaoRenthal.jpg" alt="Guidão Renthal" />
+          <h3>Guidão Renthal</h3>
+          <p>R$ 480,00</p>
+        </div>
+        <div class="product-card">
+          <img src="images/jaquetaAlpineStar.png" alt="Jaqueta AlpineStar" />
+          <h3>Jaqueta AlpineStar</h3>
+          <p>R$ 1.000,00</p>
+        </div>
+        <div class="product-card">
+          <img src="images/kitRelacao.jpg" alt="Kit Relação DID" />
+          <h3>Kit Relação DID</h3>
+          <p>R$ 19.000,00</p>
+        </div>
+        <div class="product-card">
+          <img src="images/cammelBak.png" alt="Mochila de Hidratação" />
+          <h3>Mochila de Hidratação</h3>
+          <p>R$ 899,00</p>
+        </div>
+      </div>
+
+      <div class="carousel-button next">
+        <img src="images/setaD.png" alt="Próximo" class="arrow" />
+      </div>
+    </section>
+
+  <footer>
+    <div class="footer">
+      <div class="contato">
+        <p><img src="images/whatsapp.png" alt="" id="imagem-contato" />WhatsApp: 54 99269-0769</p>
+        <p><img src="images/telefone.png" alt="" id="imagem-contato" />Telefone: 54 99262-0769</p>
+        <p><img src="images/intagram.png" alt="" id="imagem-contato" />Instagram: DoctorParts</p>
+        <p><img src="images/facebook.png" alt="" id="imagem-contato" />Facebook: DoctorParts</p>
+      </div>
+      <div class="footer-descricao">
+        <h2>Sobre nós</h2>
+        <p>Há 180 anos no segmento de venda de peças erradas, profissional em entregar acima do prazo com uma pequena variedade de marcas.</p>
+        <p>&copy; 2025 Nome da empresa | Todos os direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding-top: 100px; /* espaço para o header fixo */
+  }
+  
+  /* Header fixo */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .menu .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #divBusca {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px 5px;
+  }
+  
+  #divBusca input {
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .user-access {
+    color: white;
+  }
+  
+  #divCarrinho img {
+    margin-left: 10px;
+  }
+  
+  /* Carrossel */
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 40px 60px;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: fit-content;
+  }
+  
+  .product-card {
+    flex: 0 0 32%; /* 4 cards por vez (25% cada) */
+    max-width: 32%;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+
+  }
+  
+  /* Botões do carrossel */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-button img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 50px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contato p,
+  .footer-descricao p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  #imagem-contato {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer-descricao h2 {
+    margin-bottom: 10px;
+  }
+  
