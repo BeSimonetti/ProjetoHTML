@@ -31,13 +31,14 @@
   }
   
   .menu .logo img {
-    height: 50px;
+    width: 90px;
   }
   
   .nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-size: 25px;
   }
   
   .nav-links a {
@@ -98,7 +99,7 @@
   
   .product-card img {
     width: 100%;
-    max-height: 250px;
+    max-height: 265px;
     object-fit: contain;
 
   }
